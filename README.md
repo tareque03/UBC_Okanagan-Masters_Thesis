@@ -4,7 +4,7 @@
 MSc Thesis in Mathematics, The University of British Columbia (Okanagan), December 2023
 Supervisor: Dr. Eric Foxall
 
-📄 **[Read the full thesis (PDF)](thesis.pdf)**
+📄 **[Read the full thesis (PDF)](ubc_2024_february_hossain_mdtareque.pdf.pdf)**
 
 ## Abstract
 
@@ -26,25 +26,25 @@ We explore the impact of parameter changes on infection spread within structured
 
 **Figure 3.1.** Transition diagram of the n-state life-cycle model.
 
-![Figure 3.1](images/fig3_1_life_cycle_transition_diagram.png)
+![Figure 3.1](fig3_1_life_cycle_transition_diagram.png)
 
 **Figure 3.2.** The path taken from leaf nodes ℓ and k to leaf node i, through the hub node 1 in a star network.
 
-![Figure 3.2](images/fig3_2_star_network_path.png)
+![Figure 3.2](fig3_2_star_network_path.png)
 
 ### Chapter 4: Slow-fast decomposition
 
 **Figure 4.1.** The x variable changes quickly to approach the slow manifold and changes slowly along the slow manifold as λ is varied.
 
-![Figure 4.1](images/fig4_1_slow_manifold.png)
+![Figure 4.1](fig4_1_slow_manifold.png)
 
 **Figure 4.2.** Structured SIR model with small I and a restriction on B (taking η₂ = 0.2) such that α(Q) = 0.
 
-![Figure 4.2](images/fig4_2_structured_sir_small_I.png)
+![Figure 4.2](fig4_2_structured_sir_small_I.png)
 
 **Figure 4.3.** Structured SIR model with different η₂ values on the given time intervals: 0–15: η₂ = 0.1, 15–30: η₂ = 0.25, 30–45: η₂ = 0.1, 45–60: η₂ = 0.25.
 
-![Figure 4.3](images/fig4_3_structured_sir_varying_eta2.png)
+![Figure 4.3](fig4_3_structured_sir_varying_eta2.png)
 
 ## Code
 
@@ -52,8 +52,8 @@ The simulations in Chapter 4 (Section 4.1.2) are in the `code/` folder. In the c
 
 | Script | Reproduces |
 |---|---|
-| [`code/fig4_2_fixed_rho2.py`](code/fig4_2_fixed_rho2.py) | Figure 4.2, with ρ₂ fixed at 0.2 for 60 days |
-| [`code/fig4_3_varying_rho2.py`](code/fig4_3_varying_rho2.py) | Figure 4.3, with ρ₂ switched every 15 days (0.1, 0.25, 0.1, 0.25) |
+| [`code/fig4_2_fixed_rho2.py`](fig4_2_fixed_rho2.py) | Figure 4.2, with ρ₂ fixed at 0.2 for 60 days |
+| [`code/fig4_3_varying_rho2.py`](fig4_3_varying_rho2.py) | Figure 4.3, with ρ₂ switched every 15 days (0.1, 0.25, 0.1, 0.25) |
 
 Both scripts use the same parameters: ε = 0.01, γ = (0.4, 0.2), initial susceptible proportions (0.6, 0.4), time step h = 0.05, and T = 60.
 
